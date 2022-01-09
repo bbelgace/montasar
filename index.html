@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="stylemob.css"
+      media="screen and (max-width: 480px)"
+    />
+    <title>cour html css</title>
+  </head>
+  <!-[if IE]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]->
+  <!-- pour google chrom -->
+  <body class="body">
+    <!-- form -->
+    <form action="" method="post">
+      <label for="someInput">Your Name :</label>
+      <input
+        type="text"
+        id="someInput"
+        name="someInput"
+        placeholder="douglas Qauid"
+        required
+      />
+      <input type="email" name="email" id="email" autofocus />
+      <button type="submit">GO</button>
+    </form>
+    <!-- partie heder -->
+    <header class="mainHeader">
+      <img src="/image/img2.jpg" alt="image" />
+      <!-- barre de navigation -->
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- contenu du site -->
+    <div class="mainContent">
+      <!-- section1 -->
+      <section class="top-content">
+        <header>
+          <h2><a href="#"> MY INTRO MUSIC</a></h2>
+        </header>
+        <footer>
+          <p class="post-info">by : sabrine ben belgacem</p>
+        </footer>
+        <article>
+          <figure>
+            <img src="/image/piano.jpg" alt="" class="post-img" />
+            <figcaption>
+              <!--ecrire un texte liee a limage -->
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate commodi, quam unde consectetur debitis veniam facere
+              aliquam. Distinctio explicabo vitae fuga quo, mollitia perferendis
+              omnis, repellat ipsam incidunt dolore corrupti? Lorem,
+            </figcaption>
+          </figure>
+          <audio src="/midia/musicPiano.mp3" controls>
+            <p>
+              your browser doesn't support audio files
+              <!--cette paragraphe afficher ou cas ou browser ne sait pas lire cette audio-->
+            </p>
+          </audio>
+          <p class="post-conten">
+            <small
+              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</small
+            >
+            Cupiditate commodi, quam unde consectetur debitis veniam facere
+            aliquam. Distinctio explicabo vitae fuga quo, mollitia perferendis
+            omnis, repellat ipsam incidunt dolore corrupti? Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Totam, laboriosam soluta? Cum
+            quae velit iste porro est quibusdam, iusto natus vero tenetur
+            molestias quaerat sunt dicta ipsa! Cupiditate, impedit voluptatibus.
+            <br />
+            <br /><span>Photoshop</span>
+            <meter value="40" min="0" max="100"></meter>
+            <!--<meter></meter> ta3ti wa7da fer8a-->
+            <br /><span>Illistrator</span
+            ><meter value="80" min="0" max="100"></meter> <br /><span
+              >Indesing</span
+            ><progress value="30" max="100"></progress> <br /><span>HTML</span
+            ><progress value="60" max="100"></progress>
+          </p>
+        </article>
+      </section>
+      <!-- section2 -->
+      <section class="top-content">
+        <header>
+          <h2><a href="#"> MY VIDIO TUTORIAL</a></h2>
+        </header>
+        <footer>
+          <p class="post-info">by : ben belgacem sabrine</p>
+        </footer>
+        <article>
+          <!-- <video src=""></video> pour un vidio local ama ana wallah ma3ndi -->
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/_8Xj0_NYCX8?start=148"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+            <p>
+              your browser doesn't support audio files
+              <!--cette paragraphe afficher ou cas ou browser ne sait pas lire cette audio-->
+            </p></iframe
+          >
+          <p class="post-conten">
+            Lorem ipsum dolor sit amet consectetur,
+            <bdi
+              >هل من أحد مولع بالحلويات؟ إذا كان الأمر كذلك، فأعتقد أنني وجدت
+              البلد</bdi
+            >
+            adipisicing elit. Cupiditate commodi, quam unde consectetur debitis
+            veniam facere aliquam.<mark>
+              Distinctio explicabo vitae fuga quo,</mark
+            >
+            mollitia perferendis omnis, repellat ipsam incidunt dolore
+            <details>
+              <!--ccache la paragraphe-->
+              <summary><mark> la suite </mark></summary>
+              <!--changer  mot detaile par lire la suite-->
+              corrupti? Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit. Totam, laboriosam soluta? Cum quae velit iste porro est
+              quibusdam, iusto natus vero tenetur molestias quaerat sunt dicta
+              ipsa! Cupiditate, impedit voluptatibus.
+            </details>
+          </p>
+        </article>
+      </section>
+      <!--section 3-->
+
+      <section class="top-content">
+        <header>
+          <h2><a href="#"> MY INTRO MUSIC</a></h2>
+        </header>
+        <footer>
+          <p class="post-info">by : sabrine ben belgacem</p>
+        </footer>
+        <article>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/vphWgqbF-AM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+            <p>
+              your browser doesn't support audio files
+              <!--cette paragraphe afficher ou cas ou browser ne sait pas lire cette audio-->
+            </p></iframe
+          >
+          <p class="post-conten">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+            commodi, quam unde consectetur debitis veniam facere aliquam.
+            Distinctio explicabo vitae fuga quo, mollitia perferendis omnis,
+            repellat ipsam incidunt dolore corrupti? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Totam, laboriosam soluta? Cum quae
+            velit iste porro est quibusdam, iusto natus vero tenetur molestias
+            quaerat sunt dicta ipsa! Cupiditate, impedit voluptatibus.
+          </p>
+        </article>
+      </section>
+    </div>
+    <!-- side barre1 -->
+    <aside>
+      <article class="theSidebar">
+        <h1><a href="#">FIRST SIDE BAR</a></h1>
+        <p contenteditable="true">
+          <!--  contenteditable="true" le texte devien modifiabel -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          cupiditate veniam quod aperiam
+        </p>
+      </article>
+    </aside>
+    <aside>
+      <article class="theSidebar">
+        <ul contenteditable="true">
+          TO DO LIST :
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <!--l'utilisateur peur ercire leur to do list-->
+      </article>
+    </aside>
+    <!-- side barre2 -->
+    <aside>
+      <article class="theSidebar">
+        <h1><a href="#">SECOND SIDE BAR</a></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          cupiditate veniam quod aperiam
+        </p>
+      </article>
+    </aside>
+    <!-- side barre3 -->
+    <aside>
+      <article class="theSidebar">
+        <h1><a href="#">THIRD SIDE BAR</a></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          cupiditate veniam quod aperiam
+        </p>
+      </article>
+    </aside>
+    <!-- FOOTER DU SITE -->
+    <footer class="footer">
+      <p>COPY RIGHT</p>
+    </footer>
+  </body>
+</html>
